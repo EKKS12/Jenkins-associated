@@ -60,5 +60,5 @@ pipeline{
 				echo "JenkinHub version 1.0 is Live"
 			}
 		}
-    }
+	}
 }
