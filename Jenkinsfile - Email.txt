@@ -50,6 +50,7 @@ pipeline{
 				echo "87.5%(97/112 trials) success rate!! Email address checking is required in next version."
 				echo "Intergration of both Jenkins and Github is successful in enviroment, both pull and push requests were recived without issue. 0% packet loss"
 				echo "JenkinHub requires a expected error response for 15 senarios in enviroment 62"
+			}
 		}
 		stage("Deploy to Production"){
 			steps{
@@ -60,5 +61,6 @@ pipeline{
 				echo "JenkinHub version 1.0 is Live"
 			}
 		}
+	
 	}
 }
