@@ -5,7 +5,7 @@ pipeline{
             steps{
                 echo "The Jenkinsfile has been compiled and packaged in Github successfully."
 				echo "The Jenkins repository join and Github webhook was successful."
-				echo "The pull trigger and push response are set up.
+				echo "The pull trigger and push response are set up."
 	
             }
         }
