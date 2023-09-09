@@ -20,7 +20,7 @@ pipeline{
                     emailext body: "Success!! The linking between Jenkins Pipeline and Github was completed. The use Jenkins Git plugin and Repository URL menu has successfully joined Jenkins(Github pipeline) and Github(Jenkins-associated). Microsoft Visual Studio did not find any issues in final version. ",
 					to: "ekks28@gmail.com",
                     subject: "Test status Email",
-					attachLog: true
+					
                     				
 				
 				}
