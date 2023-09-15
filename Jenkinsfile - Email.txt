@@ -12,7 +12,7 @@ pipeline{
 		stage("Unit and Intergration Tests"){
 			steps{
 				echo "JenkinHub has successfully passed the Unit test and runs as expected."
-				echo "JenkinHub has successfully passed the Intergration test without any incompadability or system errors"
+				echo "JenkinHub has successfully passed the Intergration test without any incompadability or system errors."
 				echo "Microsoft Visual Studio did not find any syntax, funtionality or system errors."
 			}	
 			post{
@@ -20,12 +20,8 @@ pipeline{
                     emailext to: "ekks28@gmail.com",
 					subject: "Test status Email",
 					attachLog: true,
-					body: "Success!! The linking between Jenkins Pipeline and Github was completed. The use Jenkins Git plugin and Repository URL menu has successfully joined Jenkins(Github pipeline) and Github(Jenkins-associated). Microsoft Visual Studio did not find any issues in final version. ",
+					body: "Success!! The linking between Jenkins Pipeline and Github was completed. The use Jenkins Git plugin and Repository URL menu has successfully joined Jenkins(Github pipeline) and Github(Jenkins-associated). Microsoft Visual Studio did not find any issues in final version. "
 					
-                    
-					
-                    				
-				
 				}
 			}
 		}
